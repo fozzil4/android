@@ -105,7 +105,6 @@
   <project path="external/eyes-free" name="android_external_eyes-free" remote="cm" />
   <project path="external/fdlibm" name="android_external_fdlibm" remote="cm" />
   <project path="external/flac" name="android_external_flac" remote="cm" groups="pdk" />
-  <project path="external/Focal" name="android_external_Focal" remote="cm" />
   <project path="external/freetype" name="android_external_freetype" remote="cm" groups="pdk" />
   <project path="external/fuse" name="android_external_fuse" remote="cm" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" />
@@ -304,20 +303,16 @@
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" />
   <project path="libcore" name="android_libcore" remote="cm" />
   <project path="libnativehelper" name="android_libnativehelper" remote="cm" groups="pdk-java" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" remote="cm" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" />
-  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cm" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="cm" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" />
-  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" />
-  <project path="packages/apps/Focal" name="android_packages_apps_Focal" remote="cm" />
   <project path="packages/apps/Gallery" name="android_packages_apps_Gallery" remote="cm" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
@@ -327,14 +322,12 @@
   <project path="packages/apps/OneTimeInitializer" name="android_packages_apps_OneTimeInitializer" remote="cm" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="cm" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" />
-  <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="cm" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" remote="cm" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" />
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" />
-  <project path="packages/apps/VideoEditor" name="android_packages_apps_VideoEditor" remote="cm" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" />
   <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" />
   <project path="packages/experimental" name="android_packages_experimental" remote="cm" />
@@ -352,7 +345,6 @@
   <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" remote="cm" />
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" remote="cm" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="cm" />
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" />
   <project path="prebuilt" name="android_prebuilt" remote="cm" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" groups="pdk" />
   <project path="system/extras" name="android_system_extras" remote="cm" groups="pdk" />
@@ -418,12 +410,8 @@
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="pac" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="pac" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="pac" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="pac" />
-  <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman" remote="pac" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="pac" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" />
-  <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pac" />
-  <project path="packages/apps/PacStats" name="android_packages_apps_PacStats" remote="pac" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="pac" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="pac" />
