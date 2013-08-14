@@ -25,6 +25,8 @@
   <remote  name="pa"
            fetch="https://github.com/ParanoidAndroid"
            review="gerrit.androidninjas.com:8181" />
+  <remote  name="fozzil"
+           fetch="https://github.com/fozzil4" />
 
   <!-- Other remotes -->
   <remote  name="cfx"
@@ -428,7 +430,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="pac" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="pac" />
   <project path="system/core" name="android_system_core" remote="pac" />
-  <project path="vendor/pac" name="android_vendor_pac" remote="pac" />
+  <project path="vendor/pac" name="android_vendor_pac" remote="fozzil" />
 
   <project path="pac" name="pac" remote="pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
