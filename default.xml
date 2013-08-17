@@ -217,7 +217,7 @@
   <project path="external/rsync" name="android_external_rsync" remote="cm" />
   <project path="external/safe-iop" name="android_external_safe-iop" remote="cm" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" groups="pdk" />
-  <project path="external/skia" name="android_external_skia" remote="cm" />
+  <project path="external/skia" name="android_external_skia" remote="psx" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/smali" name="android_external_smali" remote="cm"/>
   <project path="external/sonivox" name="android_external_sonivox" remote="cm" groups="pdk" />
