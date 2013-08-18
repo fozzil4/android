@@ -48,7 +48,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="android_abi_cpp" remote="cm" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="win" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="psx" groups="pdk" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" />
   <project path="dalvik" name="android_dalvik" remote="psx" />
