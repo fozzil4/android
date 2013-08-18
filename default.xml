@@ -48,7 +48,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="android_abi_cpp" remote="cm" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="win" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="cm" groups="pdk" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" />
   <project path="dalvik" name="android_dalvik" remote="cm" />
@@ -219,7 +219,7 @@
   <project path="external/rsync" name="android_external_rsync" remote="cm" />
   <project path="external/safe-iop" name="android_external_safe-iop" remote="cm" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" groups="pdk" />
-  <project path="external/skia" name="android_external_skia" remote="win" />
+  <project path="external/skia" name="android_external_skia" remote="cm" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/smali" name="android_external_smali" remote="cm"/>
   <project path="external/sonivox" name="android_external_sonivox" remote="cm" groups="pdk" />
