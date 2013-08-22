@@ -203,7 +203,7 @@
   <project path="external/openssl" name="android_external_openssl" remote="cm" groups="pdk" />
   <project path="external/openvpn" name="android_external_openvpn" remote="cm" />
   <project path="external/oprofile" name="android_external_oprofile" remote="cm" />
-  <project path="external/ping" name="/platform/external/ping/" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
+  <project path="external/ping" name="/platform/external/ping" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="external/ping6" name="/platform/external/ping6" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="external/powertop" name="android_external_powertop" remote="cm" />
   <project path="external/ppp" name="android_external_ppp" remote="cm" />
