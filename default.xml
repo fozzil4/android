@@ -416,11 +416,9 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" remote="aosp" revision="refs/tags/android-4.3_r2.2" /> />
   <project path="system/core" name="android_system_core" remote="pac" />
-  <project path="vendor/pac" name="android_vendor_pac" remote="pac" />
-
-  <project path="pac" name="pac" remote="pac" >
-    <copyfile dest="build-pac.sh" src="build.sh"/>
-  </project>
+  <project path="vendor/pac" name="android_vendor_pac" remote="pac" >
+    <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
+  </project> 
 
   <!-- Device extras: legacy support -->
   <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1" />
