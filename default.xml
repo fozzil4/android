@@ -219,7 +219,7 @@
   <project path="external/rsync" name="android_external_rsync" remote="cm" />
   <project path="external/safe-iop" name="android_external_safe-iop" remote="cm" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" groups="pdk" />
-  <project path="external/skia" name="android_external_skia" remote="cm" />
+  <project path="external/skia" name="PSX-PureSpeed/android_external_skia" remote="github" revision="jb-4.3" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="external/smali" name="android_external_smali" remote="cm"/>
   <project path="external/sonivox" name="android_external_sonivox" remote="cm" groups="pdk" />
@@ -361,7 +361,7 @@
   <!-- AOSP -->
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="cts" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
-  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
+  <project path="ndk" name="PSX-PureSpeed/platform_ndk" remote="github" revision="jb-4.3" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
