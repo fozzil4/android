@@ -356,7 +356,7 @@
   <!-- AOSP -->
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r1.1" groups="cts" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r1.1" />
-  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.3_r1.1" />
+  <project path="ndk" name="PSX-PureSpeed/platform_ndk" remote="github" revision="jb-4.3" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.3_r1.1" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.3_r1.1" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.3_r1.1" />
