@@ -259,11 +259,11 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" groups="pdk" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" groups="pdk" />
   <project path="external/zxing" name="android_external_zxing" remote="cm" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="cm" groups="pdk" />
-  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cm" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="cm" groups="pdk" />
-  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cm" groups="pdk" />
-  <project path="frameworks/ex" name="android_frameworks_ex" remote="cm" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="frameworks/compile/libbcc" name="platform_frameworks_compile_libbcc" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="vanir" revision="jb43" />
+  <project path="frameworks/compile/slang" name="platform_frameworks_compile_slang" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="frameworks/ex" name="platform_frameworks_ex" remote="vanir" revision="jb43" />
   <project path="frameworks/mff" name="android_frameworks_mff" remote="cm" />
   <project path="frameworks/ml" name="android_frameworks_ml" remote="cm" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="cm" />
@@ -275,17 +275,17 @@
   <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" remote="cm" />
   <project path="frameworks/opt/mailcommon" name="android_frameworks_opt_mailcommon" remote="cm" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="cm" />
-  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="cm" />
+  <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="jb43" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" remote="cm" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="cm" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="cm" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="vanir" revision="jb43" groups="pdk" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="cm" groups="pdk" />
-  <project path="frameworks/support" name="android_frameworks_support" remote="cm" />
+  <project path="frameworks/rs" name="platform_frameworks_rs" remote="vanir" revision="jb43" />
+  <project path="frameworks/support" name="platform_frameworks_support" remote="vanir" revision="jb43" />
   <project path="frameworks/testing" name="android_frameworks_testing" remote="cm" />
   <project path="frameworks/volley" name="android_frameworks_volley" remote="cm" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" />
-  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cm" />
+  <project path="frameworks/wilhelm" name="platform_frameworks_wilhelm" remote="vanir" revision="jb43" />
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" remote="cm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="cm" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" groups="broadcom_wlan" />
