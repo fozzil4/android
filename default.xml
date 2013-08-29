@@ -34,7 +34,7 @@
 
   <!-- Other remotes -->
   <remote name="cfx"
-           fetch="https://bitbucket.org/codefirex" />
+          fetch="https://bitbucket.org/codefirex/" />
   <remote name="private"
            fetch="ssh://git@github.com" />
 
