@@ -316,24 +316,24 @@
   <project path="libcore" name="platform_libcore" remote="vanir" revision="jb43" />
   <project path="libnativehelper" name="android_libnativehelper" remote="cm" groups="pdk-java" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" remote="cm" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" />
-  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="vanir" revision="jb43" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="jb43" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cm" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="vanir" revision="jb43" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="cm" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="vanir" revision="jb43" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="jb43" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="jb43" />
   <project path="packages/apps/OneTimeInitializer" name="android_packages_apps_OneTimeInitializer" remote="cm" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="cm" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" remote="cm" />
-  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" />
+  <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="jb43" />
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" />
@@ -345,9 +345,9 @@
   <project path="packages/inputmethods/PinyinIME" name="android_packages_inputmethods_PinyinIME" remote="cm" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" remote="cm" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="cm" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cm" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="vanir" revision="jb43" />
   <project path="packages/providers/DrmProvider" name="android_packages_providers_DrmProvider" remote="cm" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="vanir" revision="jb43" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" remote="cm" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="cm" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="cm" />
