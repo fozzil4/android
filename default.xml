@@ -310,12 +310,12 @@
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project name="cristianomatos/android_packages_apps_Mms" path="packages/apps/Mms" remote="github" revision="cr-main-10.2" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project name="cristianomatos/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cr-main-10.2" />
   <project path="packages/apps/OneTimeInitializer" name="CyanogenMod/android_packages_apps_OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project name="cristianomatos/android_packages_apps_Phone" path="packages/apps/Phone" remote="github" revision="cr-main-10.2" />
+  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project name="cristianomatos/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cr-main-10.2" />
