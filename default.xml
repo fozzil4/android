@@ -412,6 +412,6 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project name="cristianomatos/android_device_lge_mako" path="device/lge/mako" remote="github" revision="cr-main-10.2"/>
-  <project name="CyanogenMod/lge-kernel-mako" path="kernel/lge/mako" remote="github" revision="cm-10.2"/>
+  <project name="BytecodeMe/BCM-mako" path="kernel/lge/mako" remote="github" revision="bcm-mako-rc1"/>
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="cr" revision="jb3" />
 </manifest>
