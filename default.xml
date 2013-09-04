@@ -308,6 +308,7 @@
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
+  <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
   <project name="cristianomatos/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="cr-main-10.2" />
   <project name="cristianomatos/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="cr-main-10.2" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
