@@ -15,9 +15,6 @@
           
   <remote name="cr"
            fetch="https://github.com/CarbonDev/" />
-	
-  <remote name="DJLIII"
-           fetch="https://github.com/DJL10-2/" />
 
   <remote name="private"
            fetch="ssh://git@github.com" />
@@ -66,7 +63,7 @@
   <project path="external/apache-qp" name="CyanogenMod/android_external_apache-qp" />
   <project path="external/apache-xml" name="CyanogenMod/android_external_apache-xml" />
   <project path="external/arduino" name="CyanogenMod/android_external_arduino" />
-  <project path="external/bash" name="android_external_bash" remote="DJLIII" revision="DJL10.2" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
