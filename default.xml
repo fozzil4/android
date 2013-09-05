@@ -12,6 +12,12 @@
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/"
           review="vaniraosp.goo.im" />
+	  
+  <remote name="DJLIII"
+           fetch="https://github.com/DJL10-2/" />
+
+  <remote name="sm"
+           fetch="https://github.com/SaberMod/" />
           
   <remote name="cr"
            fetch="https://github.com/CarbonDev/" />
@@ -24,18 +30,18 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk" >
+  <project path="build" name="android_build" remote="DJLIII" revision="DJL10.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="android" name="CyanogenMod/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="bionic" name="AOSP-S4/android_bionic" remote="github" revision="jb-4.3" />
+  <project path="bionic" name="android_bionic" remote="DJLIII" revision="DJL10.2" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="DJLIII" revision="DJL10.2" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="cts" />
-  <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43" />
+  <project path="dalvik" name="android_dalvik" remote="DJLIII" revision="DJL10.2" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
@@ -63,26 +69,26 @@
   <project path="external/apache-qp" name="CyanogenMod/android_external_apache-qp" />
   <project path="external/apache-xml" name="CyanogenMod/android_external_apache-xml" />
   <project path="external/arduino" name="CyanogenMod/android_external_arduino" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" />
+  <project path="external/bash" name="android_external_bash" remote="DJLIII" revision="DJL10.2" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="DJLIII" revision="DJL10.2" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" groups="pdk" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
+  <project path="external/chromium" name="android_external_chromium" remote="DJLIII" revision="DJL10.2" />
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
-  <project path="external/clang" name="CyanogenMod/android_external_clang" groups="pdk" />
+  <project path="external/clang" name="android_external_clang" remote="DJLIII" revision="DJL10.2" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" />
-  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="DJLIII" revision="DJL10.2" />
   <project path="external/doclava" name="CyanogenMod/android_external_doclava" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
-  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="DJLIII" revision="DJL10.2" />
   <project path="external/easymock" name="CyanogenMod/android_external_easymock" />
   <project path="external/eclipse-basebuilder" name="CyanogenMod/android_external_eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="CyanogenMod/android_external_eclipse-windowbuilder" />
@@ -148,7 +154,7 @@
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
   <project path="external/libphonenumber" name="CyanogenMod/android_external_libphonenumber" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
+  <project path="external/libpng" name="android_external_libpng" remote="DJLIII" revision="DJL10.2" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
@@ -163,7 +169,7 @@
   <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" />
   <project path="external/littlemock" name="CyanogenMod/android_external_littlemock" />
   <project path="external/llvm" name="CyanogenMod/android_external_llvm" groups="pdk" />
-  <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
+  <project path="external/lsof" name="android_external_lsof" remote="DJLIII" revision="DJL10.2" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="external/markdown" name="CyanogenMod/android_external_markdown" />
@@ -188,13 +194,13 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="external/opencv" name="CyanogenMod/android_external_opencv" />
   <project path="external/openfst" name="CyanogenMod/android_external_openfst" />
-  <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
-  <project path="external/openssl" name="CyanogenMod/android_external_openssl" groups="pdk" />
-  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
+  <project path="external/openssh" name="android_external_openssh" remote="DJLIII" revision="DJL10.2" />
+  <project path="external/openssl" name="android_external_openssl" remote="DJLIII" revision="DJL10.2" />
+  <project path="external/openvpn" name="android_external_openvpn" remote="DJLIII" revision="DJL10.2" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
-  <project path="external/ping" name="CyanogenMod/android_external_ping" />
-  <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
+  <project path="external/ping" name="android_external_ping" remote="DJLIII" revision="DJL10.2" />
+  <project path="external/ping6" name="android_external_ping6" remote="DJLIII" revision="DJL10.2" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
   <project path="external/proguard" name="CyanogenMod/android_external_proguard" groups="pdk-java" />
@@ -209,7 +215,7 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
   <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
-  <project path="external/skia" name="platform_external_skia" remote="vanir" revision="jb43" /> 
+  <project path="external/skia" name="android_external_skia" remote="DJLIII" revision="DJL10.2" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
@@ -218,7 +224,7 @@
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" />
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" />
+  <project path="external/stlport" name="android_external_stlport" remote="DJLIII" revision="DJL10.2" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
   <project path="external/stressapptest" name="CyanogenMod/android_external_stressapptest" />
   <project path="external/svox" name="CyanogenMod/android_external_svox" />
@@ -232,7 +238,7 @@
   <project path="external/v8" name="CyanogenMod/android_external_v8" />
   <project path="external/valgrind" name="CyanogenMod/android_external_valgrind" groups="pdk" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
-  <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
+  <project path="external/webkit" name="android_external_webkit" remote="DJLIII" revision="DJL10.2" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
@@ -280,14 +286,14 @@
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="DJLIII" revision="DJL10.2" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="DJLIII" revision="DJL10.2" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="DJLIII" revision="DJL10.2" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
@@ -298,7 +304,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
+  <project path="libcore" name="android_libcore" remote="DJLIII" revision="DJL10.2" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="PSX-PureSpeed/platform_ndk" remote="github" revision="jb-4.3" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
@@ -376,8 +382,10 @@
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="sm-jb-mr2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="sm-jb-mr2" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
@@ -392,12 +400,12 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk,tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" groups="pdk" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="DJLIII" revision="DJL10.2" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="DJLIII" revision="DJL10.2" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
