@@ -17,6 +17,9 @@
 
   <remote name="faux"
            fetch="https://github.com/faux123/" />
+           
+  <remote name="cr"
+           fetch="https://github.com/CarbonDev/" />
 
   <remote name="private"
            fetch="ssh://git@github.com" />
