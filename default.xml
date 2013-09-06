@@ -40,7 +40,7 @@
   <project path="android" name="android" remote="DJLIII" revision="DJL10.2" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="DJLIII" revision="DJL10.2" />
+  <project path="bionic" name="AOSP-S4/android_bionic" remote="github" revision="jb-4.3" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="DJLIII" revision="DJL10.2" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="cts" />
