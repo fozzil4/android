@@ -40,7 +40,7 @@
   <project path="android" name="android" remote="DJLIII" revision="DJL10.2" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="bionic" name="AOSP-S4/android_bionic" remote="github" revision="jb-4.3" /> 
+  <project path="bionic" name="AOSP-S4/android_bionic" remote="github" revision="jb-4.3" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="DJLIII" revision="DJL10.2" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="cts" />
@@ -290,18 +290,18 @@
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="vanir" revision="jb43" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/display-legacy" name="OpenSEMC/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" />
+  <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="vanir" revision="jb43" />
-  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
+  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
@@ -360,7 +360,7 @@
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
-  <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" /> 
+  <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="pdk" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
