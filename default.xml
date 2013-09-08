@@ -331,7 +331,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="DJLIII" revision="DJL10.2" />
   <project path="packages/apps/OneTimeInitializer" name="CyanogenMod/android_packages_apps_OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="packages_apps_phone" remote="vanir" revision="jb43" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="DJLIII" revision="DJL10.2" /> 
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="DJLIII" revision="DJL10.2" />
